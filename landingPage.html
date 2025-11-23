@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coach Profesional de League of Legends</title>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #0b0b0f;
+            color: #f1f1f1;
+        }
+        header {
+            padding: 80px 20px;
+            text-align: center;
+            background: radial-gradient(circle at top, #612bff, #1a1a2e 60%);
+            box-shadow: 0 0 40px rgba(98,0,255,0.4);
+        }
+        header h1 {
+            font-size: 3.4rem;
+            margin: 0;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 12px rgba(162,100,255,0.7);
+        }
+        header p {
+            margin-top: 15px;
+            font-size: 1.3rem;
+            opacity: 0.9;
+        }
+        section {
+            padding: 70px 12%;
+        }
+        .title {
+            font-size: 2.4rem;
+            margin-bottom: 30px;
+            color: #c08aff;
+            text-shadow: 0 0 10px rgba(100,0,255,0.6);
+        }
+        .card {
+            background: #15151f;
+            padding: 35px;
+            margin-bottom: 35px;
+            border-radius: 18px;
+            border: 1px solid #2e2e48;
+            box-shadow: 0 0 25px rgba(120,0,255,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 0 35px rgba(162,100,255,0.35);
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .badge {
+            display: inline-block;
+            background: #4b2aff;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            margin-right: 8px;
+            opacity: 0.85;
+        }
+        footer {
+            padding: 35px;
+            text-align: center;
+            background: #11111a;
+            color: #777;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+
+        /* Swiper Styles */
+        .swiper {
+            width: 100%;
+            padding: 20px 0;
+        }
+        .swiper-slide img {
+            width: 100%;
+            border-radius: 12px;
+            border: 1px solid #333;
+            box-shadow: 0 0 20px rgba(162,100,255,0.25);
+        }
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: #c08aff;
+        }
+        .swiper-pagination-bullet {
+            background: #c08aff;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Coach Profesional de League of Legends</h1>
+    <p>Experto en macro, comunicación, análisis y crecimiento competitivo</p>
+</header>
+
+<section id="sobre-mi">
+    <h2 class="title">Sobre mí</h2>
+    <div class="card">
+        <p>
+            Soy un coach profesional de League of Legends con trayectoria en dos equipos competitivos
+            y más de 12 jugadores entrenados de manera individual. Trabajo tanto el aspecto técnico
+            como la mentalidad competitiva.
+        </p>
+        <p>
+            Mi objetivo es convertir a cada jugador y equipo en una versión más fuerte, disciplinada y estratégica.
+        </p>
+        <div style="margin-top: 20px;">
+            <span class="badge">Macro Game</span>
+            <span class="badge">Micro Mecánicas</span>
+            <span class="badge">Mentalidad</span>
+            <span class="badge">Drafting</span>
+            <span class="badge">Comunicación</span>
+            <div style="margin-top: 25px;">
+                <h3 style="margin-bottom:10px; color:#c08aff;">Mis cuentas OPGG</h3>
+                <ul>
+                    <li><a href="https://op.gg/lol/summoners/euw/Hide%20On%20Clito-kata" target="_blank" style="color:#9f7bff; text-decoration:none;">Hide On Clito – kata</a></li>
+                    <li><a href="https://op.gg/lol/summoners/euw/Hide%20on%20Tilt-LOL" target="_blank" style="color:#9f7bff; text-decoration:none;">Hide on Tilt – LOL</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="servicios">
+    <h2 class="title">Servicios</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Coaching individual</h3>
+            <ul>
+                <li>Análisis profundo de replays</li>
+                <li>Plan de mejora personalizado</li>
+                <li>Rutinas de entrenamiento</li>
+                <li>Corrección de errores en tiempo real</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Entrenamiento para equipos</h3>
+            <ul>
+                <li>Gestión de scrims y objetivos</li>
+                <li>Comunicación y roles en partida</li>
+                <li>Revisión de drafts y win conditions</li>
+                <li>Fortalecimiento de sinergias internas</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Desarrollo avanzado</h3>
+            <ul>
+                <li>Plan competitivo mensual</li>
+                <li>Seguimiento estadístico</li>
+                <li>Análisis de fortalezas/debilidades</li>
+                <li>Preparación para torneos</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="precios">
+    <h2 class="title">Precios y Bonos</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Sesión individual (1 hora)</h3>
+            <p style="font-size:1.2rem; margin:10px 0; color:#c08aff;">8€</p>
+            <ul>
+                <li>Análisis completo de partida</li>
+                <li>Corrección de errores en directo</li>
+                <li>Plan de mejora inmediato</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Bono 5 sesiones</h3>
+            <p style="font-size:1.2rem; margin:10px 0; color:#c08aff;">35€</p>
+            <ul>
+                <li>Seguimiento constante</li>
+                <li>Trabajo progresivo de objetivos</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Bono 10 sesiones</h3>
+            <p style="font-size:1.2rem; margin:10px 0; color:#c08aff;">65€</p>
+            <ul>
+                <li>Entrenamiento profundo</li>
+                <li>Mejora garantizada a largo plazo</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="extras">
+    <h2 class="title">Extras y recursos</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Guías y artículos</h3>
+            <p>Contenido exclusivo para ayudarte a hacer mejores rotaciones, entender el tempo del mapa y dominar tu rol.</p>
+        </div>
+        <div class="card">
+            <h3>Biblioteca de builds</h3>
+            <p>Recomendaciones actualizadas según meta para maximizar tu impacto en partida.</p>
+        </div>
+        <div class="card">
+            <h3>Mini‑análisis de partidas</h3>
+            <p>Ejemplos prácticos explicados paso a paso para que aprendas a pensar como un jugador de alto elo.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonios">
+    <div class="card" style="text-align:center; margin-bottom:40px;">
+        <h3 style="margin:0 0 15px 0; color:#c08aff;">Mensajes reales de mis clientes</h3>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="1.png" alt="Testimonio 1"></div>
+                <div class="swiper-slide"><img src="2.png" alt="Testimonio 2"></div>
+                <div class="swiper-slide"><img src="3.png" alt="Testimonio 3"></div>
+                <div class="swiper-slide"><img src="4.png" alt="Testimonio 4"></div>
+                <div class="swiper-slide"><img src="5.png" alt="Testimonio 5"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2 class="title">Contacto</h2>
+    <div class="card">
+        <p>Si quieres mejorar tu nivel o preparar a tu equipo para competir seriamente, puedes contactarme por:</p>
+        <ul>
+            <li><strong>Discord:</strong> ElJesu877</li>
+            <li><strong>Email:</strong> jesusroblesgarcia2002@gmail.com</li>
+        </ul>
+        <p>Responderé lo antes posible para coordinar una sesión o resolver tus dudas.</p>
+    </div>
+</section>
+
+<section id="reserva">
+    <h2 class="title">Reserva tu sesión</h2>
+    <div class="grid">
+        <!-- Sesión individual -->
+        <div class="card" style="text-align:center;">
+            <h3>Sesión individual (1 hora)</h3>
+            <p style="font-size:1.2rem; color:#c08aff;">8€</p>
+            <p>Análisis completo de partida + Corrección en directo + Plan de mejora inmediato</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="jesustarifa12@gmail.com">
+                <input type="hidden" name="item_name" value="Sesión individual 1 hora">
+                <input type="hidden" name="amount" value="8.00">
+                <input type="hidden" name="currency_code" value="EUR">
+                <input type="submit" value="Reservar con PayPal" style="padding:12px 25px; background:#c08aff; color:#fff; border:none; border-radius:10px; cursor:pointer;">
+            </form>
+        </div>
+
+        <!-- Bono 5 sesiones -->
+        <div class="card" style="text-align:center;">
+            <h3>Bono 5 sesiones</h3>
+            <p style="font-size:1.2rem; color:#c08aff;">35€</p>
+            <p>Seguimiento constante + Trabajo progresivo de objetivos</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="jesustarifa12@gmail.com">
+                <input type="hidden" name="item_name" value="Bono 5 sesiones">
+                <input type="hidden" name="amount" value="35.00">
+                <input type="hidden" name="currency_code" value="EUR">
+                <input type="submit" value="Reservar con PayPal" style="padding:12px 25px; background:#c08aff; color:#fff; border:none; border-radius:10px; cursor:pointer;">
+            </form>
+        </div>
+
+        <!-- Bono 10 sesiones -->
+        <div class="card" style="text-align:center;">
+            <h3>Bono 10 sesiones</h3>
+            <p style="font-size:1.2rem; color:#c08aff;">65€</p>
+            <p>Entrenamiento profundo + Mejora garantizada a largo plazo</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="jesustarifa12@gmail.com">
+                <input type="hidden" name="item_name" value="Bono 10 sesiones">
+                <input type="hidden" name="amount" value="65.00">
+                <input type="hidden" name="currency_code" value="EUR">
+                <input type="submit" value="Reservar con PayPal" style="padding:12px 25px; background:#c08aff; color:#fff; border:none; border-radius:10px; cursor:pointer;">
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    © 2025 Coach Profesional de League of Legends — Todos los derechos reservados
+</footer>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper(".mySwiper", {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+        },
+    });
+</script>
+</body>
+</html>
